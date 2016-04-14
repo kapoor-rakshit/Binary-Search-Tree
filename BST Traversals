@@ -56,13 +56,13 @@ int main()
             {
                 if((temp->info)>=(temp1->info))
                 {
-                    if(temp1->right==NULL)
+                    if(temp1->right==NULL)            //check before moving right
                         break;
                     temp1=temp1->right;
                 }
                 else
                 {
-                    if(temp1->left==NULL)
+                    if(temp1->left==NULL)            //check before moving left
                         break;
                     temp1=temp1->left;
                 }
